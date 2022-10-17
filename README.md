@@ -29,9 +29,8 @@ jp-pint-peppol-electronic-invoice-sql では、パートナーファンクショ
 
 jp-pint-peppol-electronic-invoice-sql におけるパートナーファンクションは、2桁のコードで例示され、  
 
-* TaxRepresentativeParty / 請求主体 : IV
-* AccountingCustomerParty / 請求先 : BL
-* AccountingSupplierParty / 仕入先 : SP
+* Seller / 請求主体 : IV or 仕入先 : SP
+* Buyer / 受注先 : CS and 請求先 : BL
 * Payee / 受取人 : RV
 
 となっています。  
