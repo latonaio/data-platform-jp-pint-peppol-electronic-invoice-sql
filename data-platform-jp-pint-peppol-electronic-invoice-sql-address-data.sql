@@ -1,4 +1,4 @@
-CREATE TABLE `data_platform_jp_pint_peppol_electronic_invoice_partner_address_data`
+CREATE TABLE `data_platform_jp_pint_peppol_electronic_invoice_address_data`
 (
     `InvoiceNumber`           varchar(10) NOT NULL,
     `AddressID`               int(12) NOT NULL,
@@ -8,7 +8,7 @@ CREATE TABLE `data_platform_jp_pint_peppol_electronic_invoice_partner_address_da
     `District`                varchar(6) DEFAULT NULL,
     `StreetName`              varchar(200) DEFAULT NULL,
     `CityName`                varchar(200) DEFAULT NULL,
-    `Builiding`               varchar(100) DEFAULT NULL,
+    `Building`                varchar(100) DEFAULT NULL,
     `Floor`                   int(4) DEFAULT NULL,
     `Room`                    int(8) DEFAULT NULL,
 
