@@ -3,6 +3,8 @@ CREATE TABLE `data_platform_jp_pint_peppol_electronic_invoice_item_data`
     `InvoiceNumber`           		 	 	 							varchar(10) NOT NULL, 		-- <cbc> "F012345" / IBT-001 / A unique identification of the Invoice.
     `InvoiceLineIdentifier`												varchar(6) NOT NULL, 	    -- <cbc> "/IBT-126/ A unique identifier for the individual line within the Invoice.
 	`InvoiceLineNote`													varchar(100) DEFAULT NULL, 	-- <cbc> "/IBT-127/ A textual note that gives unstructured information that is relevant to the Invoice line.
+	`ItemStandardIdentifier`                                            varchar(18) DEFAULT NULL, 	
+	`ItemClassificationIdentifier`                                      varchar(8) DEFAULT NULL,
 	`InvoiceLineDocumentIdentifier`										varchar(10) DEFAULT NULL, 	-- <cbc> "/IBT-188/ An identifiers for a document that the invoice line referes to.
 	`DocumentTypeCode`													varchar(4) DEFAULT NULL, 	-- <cbc> "/IBT-189/ A code that qualifies the type of the document that is referenced.
 	`InvoiceLineObjectIdentifier`										varchar(10) DEFAULT NULL, 	-- <cbc> "/IBT-128/ An identifier for an object on which the invoice line is based, given by the Seller.

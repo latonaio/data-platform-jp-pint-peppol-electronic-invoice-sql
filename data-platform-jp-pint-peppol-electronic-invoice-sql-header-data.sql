@@ -32,14 +32,12 @@ CREATE TABLE `data_platform_jp_pint_peppol_electronic_invoice_header_data`
 	`PaymentMeansTypeCode`            									varchar(4) DEFAULT NULL, 	-- <cbc> "30" / IBT-081 / The means, expressed as code, for how a payment is expected to be or has been settled.
 	`PaymentCardPrimaryAccountNumber`     		    					varchar(10) DEFAULT NULL, 	-- <cbc> " / IBT-087 / The Primary Account Number (PAN) of the card used for payment.
 	`PaymentCardHolderName`            			    					varchar(18) DEFAULT NULL, 	-- <cbc> " / IBT-088 / The name of the payment card holder.
-	`PaidAmounts`             					    					varchar(13) DEFAULT NULL, 	-- <cbc> " / IBG-35 / Breakdown of the paid amount deducted from the amount due.
 	`PaidAmount`               											varchar(13) DEFAULT NULL, 	-- <cbc> " / IBT-180 / The amount of the payment in the invoice currency.
 	`PaymentType`             					    					varchar(3) DEFAULT NULL, 	-- <cbc> " / IBT-182 / The type of the the payment.
 	`SumOfInvoiceLineNetAmount`           								varchar(13) DEFAULT NULL, 	-- <cbc> ""2374.05" / IBT-106 / Sum of all Invoice line net amounts in the Invoice.
 	`InvoiceTotalAmountWithoutTAX`          							varchar(13) DEFAULT NULL, 	-- <cbc> "33915.00" / IBT-109 / The total amount of the Invoice without TAX.
 	`InvoiceTotalTAXAmount`             								varchar(13) DEFAULT NULL, 	-- <cbc> "2374.05" / IBT-110 / The total TAX amount for the Invoice.
 	`InvoiceTotalAmountWithTAX`           								varchar(13) DEFAULT NULL, 	-- <cbc> "36289.05" / IBT-112 / The total amount of the Invoice with tax.
-	`PaidAmount`               											varchar(13) DEFAULT NULL, 	-- <cbc> " / IBT-113 / The sum of amounts which have been paid in advance.
 	`AmountDueForPayment`             									varchar(13) DEFAULT NULL, 	-- <cbc> " / IBT-115 / The outstanding amount that is requested to be paid.
 	`ExternalDocumentLocation`            								varchar(100) DEFAULT NULL, 	-- <cbc> " / IBT-124 / The URL (Uniform Resource Locator) that identifies where the external document is located.
 	`AttachedDocument`               									varchar(100) DEFAULT NULL, 	-- <cbc> " / IBT-125 / An attached document embedded as binary object or sent together with the invoice.
