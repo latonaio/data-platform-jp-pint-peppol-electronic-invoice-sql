@@ -6,7 +6,7 @@ data-platform-jp-pint-electronic-invoice-sql　は、データ連携基盤にお
 
 Peppol（ペポル）とは、請求等にかかる電子文書をネットワーク上でやり取りするための「文書仕様」「ネットワーク」「運用ルール」の国際規格です。  
 国際的な非営利組織であるOPEN PEPPOLが管理運営しており、「操作がシンプルで、導入のハードルが低い」「ユーザー間でデータ連携が進み、業務コストの削減が実現できている」といった評価がされています。  
-日本標準仕様として、[公式仕様](https://test-docs.peppol.eu/japan/master/billing-1.0/invoice-1.0/semantic-model/) や [GitHub](https://github.com/OpenPEPPOL/peppol-bis-invoice-3)が公開されています。  
+日本標準仕様として、[公式仕様](https://docs.peppol.eu/poac/jp/pint-jp/)や、[GitHub](https://github.com/OpenPEPPOL/peppol-bis-invoice-3)が公開されています。  
 
 ## 前提条件
 
